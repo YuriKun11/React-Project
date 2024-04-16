@@ -1,0 +1,59 @@
+.sidebar {
+    width: 100%; /* Adjust the width as needed */
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    z-index: 5;
+ 
+  }
+  
+  .nav-list {
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+  }
+
+
+  .nav-item {
+    margin-bottom: 10px;
+  }
+  
+  .nav-link {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s; /* Add transition for smoother color change */
+  }
+  
+  .nav-link:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  
+  }
+  
+  /* Navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+  padding: 10px 0;
+  width: 100%;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+ 
+  .navbar-logo{
+    display: none;
+  }
+ 
+}
+
+.active {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+  color: white;
+}
+

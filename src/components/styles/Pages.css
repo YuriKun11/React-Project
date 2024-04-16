@@ -1,0 +1,55 @@
+.main-container{
+    max-width: 60rem;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid blue; */
+    padding: 0 1em;
+    margin: 0 auto;
+}
+
+.main-container-command{
+    max-width: 60rem;
+    display: flex;
+    justify-content: center;
+   
+    padding: 0 1em;
+    margin: 0 auto;
+}
+
+
+.container-wrapper{
+    display: flex;
+    /* border: 2px solid #007ACC;
+    background-color: black; */
+}
+
+.command1{
+    margin-right: 50px;
+    text-align: start;
+}
+
+.content{
+    text-align: center;
+}
+.command2{
+    text-align: start;
+}
+
+.guide{
+    text-align: start;
+}
+
+@media screen and (max-width: 1268px) {
+    .container-wrapper{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-container-command{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+}
+
